@@ -1,0 +1,51 @@
+a
+{
+  color: white;
+}
+
+.white_txt
+{
+  color: white;
+}
+
+.t1
+{
+  font-size: 20vw;
+  display:inline;
+}
+
+.t2
+{
+  font-size: 3vw;
+  display:inline;
+}
+
+.clock
+{
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.what
+{
+  text-align: center;
+  position: absolute;
+  top:  95%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.about
+{
+  position: absolute;
+  top:  85%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+span.dd { color: #EE9F9F; }
+span.md { color: #C970EC; }
+span.td { color: #709AEC; }
