@@ -1,6 +1,9 @@
-# GalacticTime
+# Wizlon Time
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+Wizlon Time is a base-10 system of time. One might think of it as "metric time." 
+Days are divided into 10 deci-days (dd), deci-days are divided into 100 milli-days (md), and 
+milli-days are divided into 100 toli-days (td). 
+Midnight is 0.00. Noon is 5.00.
 
 ## Development server
 
