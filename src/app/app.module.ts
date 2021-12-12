@@ -7,6 +7,8 @@ import { ConverterComponent } from './views/converter/converter.component';
 import {AppRoutingModule} from "./app-routing.module";
 import { GalacticComponent } from './views/galactic/galactic.component';
 
+import {MatIconModule} from '@angular/material/icon';
+import { AboutIconComponent } from './components/about-icon/about-icon.component';
 
 @NgModule({
   declarations: [
@@ -14,10 +16,12 @@ import { GalacticComponent } from './views/galactic/galactic.component';
     TimeComponent,
     ConverterComponent,
     GalacticComponent,
+    AboutIconComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -23,7 +23,7 @@ export class GalacticComponent implements OnInit {
 
   updateTime(){
     let d = new Date();
-    let gt = this.timerService.galacticTime(d.getHours(),d.getMinutes(),d.getSeconds(),d.getMilliseconds()).toFixed(10).toString();
+    let gt = this.timerService.galacticTime().toFixed(10).toString();
     // example returned gt = 46.8.41.3.26.68
     this.dd = gt.substring(5, 6);
     this.md = gt.substring(6,8);
